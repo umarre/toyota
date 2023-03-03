@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.nav{
+    background-color: white;
+    /* position: fixed;
+    width: 100%; */
+   justify-content: center;
+   justify-content: space-around;
+}
+
+.logo{
+    padding-top: 15px;
+     /* padding-right: 35px;  */
+}
+
+.logo a{
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
+    font-size: 2px;
+}
+
+
+
+.center-nav{
+    padding-top: 20px;
+     padding-left: 20%; 
+}
+
+
+.center-nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}
+
+.center-nav a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.center-nav a:hover{
+    color: red;
+}
+
+
+.right-nav{
+    padding-top: 17px;
+    /* padding-left: 2%; */
+}
+
+
+
+.right-nav ul{
+    gap: 12px;
+    display: flex;
+    font-weight: 600;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.right-nav a{ 
+    text-decoration: none;
+    color: black;
+}
+
+
+/* .right-nav ul li a .rightnav-btn{
+    transition: all 0.3s;
+}
+
+.right-nav ul li a .rightnav-btn:hover{
+    color: red;
+} */
+
+
+.rightnav-btn{
+    padding: 0 7px;
+    font-weight: 600;
+    background: none;
+     transition: all 0.3s; 
+}
+
+.rightnav-btn:hover{
+    border: 2px solid red;
+    border-color: red;
+    color: red;
+} 
+/* 
+
+.prius img{
+    position: absolute;
+} */
+
+.prius-content span{
+    padding-left: 24px;
+      z-index: 3;
+    color: rgb(0, 0, 0);
+}
+
+
+.prius-content h2{
+    padding-left: 24px;
+    padding-top: 2%;
+    /* position: absolute; */
+    z-index: 2;
+    color: rgb(0, 0, 0);
+}
+
+.notification{
+    background-color: whitesmoke;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+
+
+.notification a{
+    text-decoration: none;
+    color: rgb(41, 41, 139);
+    /* position: absolute; */
+    bottom: 125px;
+    font-size: large;
+    padding-left: 32%;
+    font-weight: 700;
+    transition: all 0.4s;
+}
+
+.notification a:hover{
+    text-decoration: underline;
+    color: rgb(255, 0, 0)
+}
+
+
+.mngment img{
+    /* position: relative; */
+    width: 100%;
+    object-fit: cover;
+} 
+
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sdg{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sdg p{
+    padding-top: 5px;
+    padding-bottom: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Notices{
+    background-color: whitesmoke;
+}
+
+
+.Notices h2{
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+.Notices a{
+    text-decoration: none;
+    transition: all 0.4s;
+    color: rgb(20, 122, 122);
+}
+
+.Notices a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+
+.sub-notice{
+
+    padding-left: 150px;
+    gap: 12px;
+    display: flex;
+}
+
+
+.foot a{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all  0.4s;
+}
+
+
+.foot a:hover{
+      color: red;
+}
+
+
+.foot{
+    padding-left: 28%;
+    padding-top: 50px;
+    text-align: center;
+    gap: 15%;
+    display: flex;
+    background-color: rgb(48, 41, 41);
+}
+
+.foot1{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.foot2{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.foot3{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
