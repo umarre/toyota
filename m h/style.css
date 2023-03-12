@@ -4,6 +4,13 @@
     padding: 0;
 }
 
+img{
+    transition: opacity .5s ease;
+}
+
+ img:hover{
+    opacity: 0.8;
+}
 
 
 
@@ -96,6 +103,8 @@
     border-color: red;
     color: red;
 } 
+
+
 /* 
 
 .prius img{
@@ -160,6 +169,15 @@
     display: flex;
     justify-content: space-around;
 }
+/* 
+.sdg img{
+    transition: opacity .5s ease;
+}
+
+.sdg img:hover{
+    opacity: 0.9;
+} */
+
 
 .sdg p{
     padding-top: 5px;
@@ -213,12 +231,13 @@
 
 
 .foot{
+    padding-bottom: 50px;
     padding-left: 28%;
     padding-top: 50px;
     text-align: center;
     gap: 15%;
     display: flex;
-    background-color: rgb(48, 41, 41);
+    background-color:#424242;
 }
 
 .foot1{
@@ -238,4 +257,72 @@
     gap: 20px;
     display: flex;
     flex-direction: column;
+}
+
+
+
+#footer{
+    background-color: #212121;
+}
+
+.copyright{
+    font-size: small;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.copyright div p{
+    color: white;
+}
+
+
+.rightfoot .policy{
+    padding-left: 7px;
+    text-decoration: none;
+    transition: all 0.4s;
+    color: white;
+}
+
+.rightfoot .policy:hover{
+    color: red;
+}
+
+.rightfoot .privacy{
+    padding-left: 7px;
+    text-decoration: none;
+    transition: all 0.4s;
+    color: white;
+}
+
+
+.rightfoot .privacy ::before{
+    position: absolute;
+    content: " ";
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 1px;
+    height: 12px;
+    background-color: white;
+}
+
+
+.rightfoot .privacy:hover{
+    color: red;
+}
+
+
+
+
+.card-text{
+    font-weight: normal;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+
+.card-text:hover{
+    color: red;
 }
